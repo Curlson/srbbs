@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    phpinfo();
+    return config('app.timezone');
 });
